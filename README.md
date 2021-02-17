@@ -1,2 +1,1 @@
-# gradle-plugin-maven-persistant
-gradle plugin to save maven dependencies in local directory
+gradle plugin dependencies to disk
