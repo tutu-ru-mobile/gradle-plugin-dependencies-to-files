@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-html/0.7.2/kotlinx-html-0.7.2.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-html",
+    "version": "0.7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "osnlrljqenfprch7lhzlbrrvnm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-html-jvm-0.7.2.jar",
+          "url": "kotlinx-html-jvm-0.7.2.jar",
+          "size": 779994,
+          "sha512": "b5f3e8bcd4527ce1a3d990bdee01ec1790a5d9b2f2756b927eefc6cc893aa920f2f37626146c380b0be31c5b3718999c602e40fa970cee9c2fb8a4d1756efc6f",
+          "sha256": "62770855b7bacbc730762846f2b7fecb493d19897b77bc5310f434e2511fe16d",
+          "sha1": "c7a77c9027384b982941d48ee61f80cce12a03eb",
+          "md5": "236f5e694d17dbf86dcd16444ca04184"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-html-jvm-0.7.2.jar",
+          "url": "kotlinx-html-jvm-0.7.2.jar",
+          "size": 779994,
+          "sha512": "b5f3e8bcd4527ce1a3d990bdee01ec1790a5d9b2f2756b927eefc6cc893aa920f2f37626146c380b0be31c5b3718999c602e40fa970cee9c2fb8a4d1756efc6f",
+          "sha256": "62770855b7bacbc730762846f2b7fecb493d19897b77bc5310f434e2511fe16d",
+          "sha1": "c7a77c9027384b982941d48ee61f80cce12a03eb",
+          "md5": "236f5e694d17dbf86dcd16444ca04184"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kotlinx-html-common/0.7.2/kotlinx-html-common-0.7.2.module",
+        "group": "org.jetbrains.kotlinx",
+        "module": "kotlinx-html-common",
+        "version": "0.7.2"
+      }
+    }
+  ]
+}

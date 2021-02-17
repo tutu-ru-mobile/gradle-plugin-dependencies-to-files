@@ -1,0 +1,19 @@
+plugins {
+  id("ru.tutu.dependencies2files") version "SNAPSHOT"
+  id("org.jetbrains.kotlin.jvm") version "1.4.30"
+}
+
+dependenciesToFiles {
+
+}
+
+repositories {
+  mavenCentral()
+  dependenciesToFiles.addRepository(it) {
+    saveJcenter()
+  }
+}
+
+dependencies {
+  implementation("io.ktor:ktor-html-builder:1.5.1")
+}
