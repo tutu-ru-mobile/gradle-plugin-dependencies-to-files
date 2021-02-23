@@ -34,7 +34,8 @@ repositories {
 ```
 ### 2. Build your project
 Compile or build your project, sync IDE with Gradle. Use all cases you want to work with desired dependencies. Also, it'is better use gradle cli option `--refresh-dependencies`.
-### 3. Commit to git save_dependencies dir
+### 3. Commit to git
+Better to commit all saved dependencies to git. By default all dependencies will saved to `save_dependencies` dir.
 ### 4. Remove plugin and use mavenLocal instead 
 Instead `dependenciesToFiles.addRepository(...)` you may use mavenLocal with custom dir:
 ```Kotlin
