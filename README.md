@@ -2,8 +2,8 @@
 Helps to save dependencies in files, and use them offline later.  
 Main goal to save unique jcenter() dependencies to latter usage.
 
-## Usage in build.gradle
 ### 1. Configure plugin
+#### Usage in build.gradle
 ```Groovy
 plugins {
   id("ru.tutu.dependencies2files") version "0.1.0"
@@ -18,7 +18,7 @@ repositories {
 }
 ```
 
-## Usage in build.gradle.kts
+#### Usage in build.gradle.kts
 ```Kotlin
 plugins {
   id("ru.tutu.dependencies2files") version "0.1.0"
