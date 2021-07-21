@@ -42,7 +42,7 @@ Instead `dependenciesToFiles.addRepository(...)` you may use mavenLocal with cus
 repositories {
   mavenCentral()
   mavenLocal {
-    url = uri("$projectDir/save_dependencies")
+    url = uri("${rootProject.projectDir}/save_dependencies")
   }
 }
 ```
