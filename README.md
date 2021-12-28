@@ -6,7 +6,7 @@ Main goal to save unique jcenter() dependencies to latter usage.
 #### Usage in build.gradle
 ```Groovy
 plugins {
-  id("ru.tutu.dependencies2files") version "0.1.0"
+  id("ru.tutu.dependencies2files") version "0.2.0"
 }
 //...
 repositories {
@@ -21,7 +21,7 @@ repositories {
 #### Usage in build.gradle.kts
 ```Kotlin
 plugins {
-  id("ru.tutu.dependencies2files") version "0.1.0"
+  id("ru.tutu.dependencies2files") version "0.2.0"
 }
 //...
 repositories {
