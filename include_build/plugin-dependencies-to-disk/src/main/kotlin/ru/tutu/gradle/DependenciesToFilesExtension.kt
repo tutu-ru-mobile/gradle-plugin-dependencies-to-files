@@ -70,6 +70,7 @@ open class DependenciesToFilesExtension(projectDir: String) {
         val pathSegment = proxyRepoData.pathSegment
         handler.maven {
           setUrl("http://localhost:$port/$pathSegment")
+          isAllowInsecureProtocol = true
         }
       }
     }

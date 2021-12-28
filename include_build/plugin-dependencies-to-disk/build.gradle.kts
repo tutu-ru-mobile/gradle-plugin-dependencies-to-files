@@ -10,7 +10,7 @@ plugins {
 
 val PLUGIN_NAME = "dependencies to files"
 val PLUGIN_ID = "ru.tutu.dependencies2files"
-val VERSION = "0.1.0"
+val VERSION = "0.2.0"
 val TAGS = listOf("dependency", "repository", "jcenter", "offline")
 
 group = "ru.tutu"
